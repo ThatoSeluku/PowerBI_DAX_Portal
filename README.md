@@ -1,2 +1,17 @@
-# PowerBI_DAX_Portal
-A portal for common DAX used when developing dashboards and reports for clients
+/DAX-Portal
+  ├── README.md
+  ├── Aggregations/
+  │    ├── SUMX.md
+  │    ├── AVERAGEX.md
+  ├── TimeIntelligence/
+  │    ├── YTD.md
+  │    ├── MTD.md
+  ├── Filtering/
+  │    ├── CALCULATE.md
+  │    ├── ALL.md
+  ├── DebuggingTips/
+  │    ├── CircularDependencies.md
+  │    ├── MissingRelationships.md
+  └── ExampleReports/
+       ├── SalesInsights.pbix
+       ├── FinancialDashboard.pbix

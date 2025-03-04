@@ -10,18 +10,19 @@ The `SUMX` function is used to evaluate an expression for each row in a table an
 
 ```DAX
 Total Revenue = SUMX(SalesTable, SalesTable[Quantity] * SalesTable[Price])
-
+```
 
 ## 2. Weighted Average: 
 **Scenario**: Basically find the average of 2 fields in a table
 
 ```DAX
 Weighted Average Rating = SUMX(Products, Products[Rating] * Products[Votes]) / SUM(Products[Votes])
-
+```
 
 ## 3. Profit Margin by Product:
 **Scenario**: Find the profit margin between 2 products:
+```DAX
 Total Profit Margin = SUMX(Products, (Products[Sales] - Products[Cost]) / Products[Sales])
-
+```
 
 

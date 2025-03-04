@@ -74,7 +74,7 @@ Average Sales = IF(
 )
 ```
 
-## 5. ** Use EVALUATE to Test DAX Expressions in DAX Studio**
+## 5. **Use EVALUATE to Test DAX Expressions in DAX Studio**
 Sometimes, debugging can be easier if you isolate the problem and test it outside of the Power BI environment. Use tools like DAX Studio to evaluate and test DAX expressions.
 
 
@@ -92,7 +92,7 @@ SUMMARIZE(
 )
 ```
 
-## 6. ** Break Down Complex Measures into Smaller Parts**
+## 6. **Break Down Complex Measures into Smaller Parts**
 f you're having trouble with a complex DAX formula, break it down into smaller, more manageable parts. This will allow you to debug each part of the formula and find out where the issue lies.
 
 ### Example:
@@ -108,7 +108,7 @@ Step 3: Final Sales = [Filtered Sales] * 1.1  -- Apply additional logic
 
 ```
 
-## 7. ** Consider usiing DAX formatter**
+## 7. **Consider usiing DAX formatter**
 For a clearer understanding and better readability of your DAX expressions, consider using the DAX Formatter (available online) to format your DAX code. This helps with identifying errors and maintaining consistency in your measures.
 
 ### Example:

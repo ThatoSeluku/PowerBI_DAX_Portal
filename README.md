@@ -13,5 +13,7 @@
 │   ├── 📄 CircularDependencies.md
 │   └── 📄 MissingRelationships.md
 └── 📁 ExampleReports/
-├── 📊 SalesInsights.pbix
-└── 📊 FinancialDashboard.pbix
+├── 📊 InpatientOutPatientData.pbix
+└── 📊 SpotifyTop2023Songs.pbix
+└── 📊 UberEatsReport.pbix
+└── 📊 ASI_PowerBI_Report.pbix
